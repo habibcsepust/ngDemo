@@ -8,13 +8,12 @@ import { Component } from '@angular/core';
       <input type="text" value="{{person_name}}"/>
       <input type="text" bind-value="person_name"/>
       <hr/>
-      <input type="button" value="Submit" />
       <input type="button" value="Submit" [disabled]="isDisable"/>
       <input type="button" value="Submit" disabled />
       <input type="button" value="Hidden Button1"/>
       <input type="button" value="Hidden Button2" hidden />
       <input type="button" value="Hidden Button3" [hidden]="isHidden"/>
-      
+
       <hr/>
 
       Title: {{evilTitle}}<br>
